@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('https://www.h2tic.com/font/bariol_bold-webfont.eot');
+    src: url('https://www.h2tic.com/font/bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.h2tic.com/font/bariol_bold-webfont.woff') format('woff'),
+         url('https://www.h2tic.com/font/bariol_bold-webfont.ttf') format('truetype'),
+         url('https://www.h2tic.com/font/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bariol_lightlight';
+    src: url('https://www.h2tic.com/font/bariol_light-webfont.eot');
+    src: url('https://www.h2tic.com/font/bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.h2tic.com/font/bariol_light-webfont.woff') format('woff'),
+         url('https://www.h2tic.com/font/bariol_light-webfont.ttf') format('truetype'),
+         url('https://www.h2tic.com/font/bariol_light-webfont.svg#bariol_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bariolthin';
+    src: url('https://www.h2tic.com/font/bariol_thin-webfont.eot');
+    src: url('https://www.h2tic.com/font/bariol_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.h2tic.com/font/bariol_thin-webfont.woff') format('woff'),
+         url('https://www.h2tic.com/font/bariol_thin-webfont.ttf') format('truetype'),
+         url('https://www.h2tic.com/font/bariol_thin-webfont.svg#bariolthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bariol_boldbold_italic';
+    src: url('https://www.h2tic.com/font/bariol_bold_italic-webfont.eot');
+    src: url('https://www.h2tic.com/font/bariol_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.h2tic.com/font/bariol_bold_italic-webfont.woff') format('woff'),
+         url('https://www.h2tic.com/font/bariol_bold_italic-webfont.ttf') format('truetype'),
+         url('https://www.h2tic.com/font/bariol_bold_italic-webfont.svg#bariol_boldbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bariollight_italic';
+    src: url('https://www.h2tic.com/font/bariol_light_italic-webfont.eot');
+    src: url('https://www.h2tic.com/font/bariol_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.h2tic.com/font/bariol_light_italic-webfont.woff') format('woff'),
+         url('https://www.h2tic.com/font/bariol_light_italic-webfont.ttf') format('truetype'),
+         url('https://www.h2tic.com/font/bariol_light_italic-webfont.svg#bariollight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bariolthin_italic';
+    src: url('https://www.h2tic.com/font/bariol_thin_italic-webfont.eot');
+    src: url('https://www.h2tic.com/font/bariol_thin_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.h2tic.com/font/bariol_thin_italic-webfont.woff') format('woff'),
+         url('https://www.h2tic.com/font/bariol_thin_italic-webfont.ttf') format('truetype'),
+         url('https://www.h2tic.com/font/bariol_thin_italic-webfont.svg#bariolthin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
