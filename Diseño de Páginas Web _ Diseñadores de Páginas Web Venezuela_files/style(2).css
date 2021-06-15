@@ -1,0 +1,325 @@
+/*
+Theme Name: AccessPress Parallax Child
+Theme URI: https://accesspressthemes.com/wordpress-themes/accesspress-parallax/
+Template: accesspress-parallax
+Author: Boris Ortega
+Author URI: https://tdgcentro.com/
+Description: AccessPress Parallax is a beautiful WordPress theme with Parallax design.
+Tags: custom-background,custom-colors,custom-header,custom-menu,featured-images,one-column,right-sidebar,theme-options,threaded-comments,translation-ready,two-columns,grid-layout,footer-widgets,blog,e-commerce,photography,portfolio
+Version: 1.30.1490803208
+Updated: 2017-03-29 16:00:08
+
+*/
+
+/* #fondo footer gris
+================================================== */
+.bottom-footer{
+	background: #060606;
+}
+
+/* #fondo footer negro
+================================================== */
+.top-footer{
+	background: #000;
+}
+
+
+/* #cambio de color del hover en seccion call-to-action en inicio
+================================================== */
+.slider-caption .caption-description a:hover, .btn:hover {
+	background: #fe1201 !important;
+	border: 2px solid #fff !important;
+}
+
+.call-to-action a {
+	border-radius: 10rem !important;
+    border: 2px solid #fff !important;
+}
+
+.call-to-action a:hover {
+	border-radius: 10rem !important;
+    border: 2px solid #000 !important;
+}
+
+
+/* #CSS para personalizar caldera forms
+================================================== /*
+
+/*** MAIN FORM CONTAINER ***/
+.caldera-grid {
+    background-image: linear-gradient(
+      rgba(20, 20, 20, 0.8), 
+      rgba(20, 20, 20, 0.8)), url(https://www.tdgcentro.com/wp-content/uploads/2017/04/idevices.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 40px 10px 40px;
+}
+
+/*** HEADER FONT ***/
+.caldera-grid h2 {
+    font-family: 'Doppio One';
+    color: #fff;
+    font-weight: 500;
+}
+
+/*** BODY FONT ***/
+.caldera-grid p {
+    color: #fff;
+}
+
+/*** ADDS EXTRA SPACE BELOW HORIZONTAL RULE ***/
+.caldera-grid .row {
+    margin-bottom: 0px;
+}
+
+/*** HORIZONTAL RULE ***/
+.caldera-grid hr {
+    border-top: 5px solid #DCE0D9;
+}
+
+/*** FIELD STYLING ***/
+.caldera-grid .form-control {
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+    color: #f5f5f5;
+}
+
+/*** FIELD STYLING WHEN IN FOCUS ***/
+.caldera-grid .form-control:focus {
+    border-color: transparent;
+background: rgba(0, 0, 0, 0.4);
+color: #fff;
+    box-shadow: none;
+}
+
+/*** BUTTON STYLING ***/
+.caldera-grid input[type=submit] {
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 10px 12px;
+    border-radius: 0;
+    background: #000;
+    color: #f5f5f5;
+    border: none;
+
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+/*** BUTTON HOVER STYLING ***/
+.caldera-grid input[type=submit]:hover {
+    background: #444;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** CSS PARA CENTRAR EL TEXTO DESCRIPTIVO EN PORTAFOLIO ***/
+.wd-portfolio-panel_2 .description-block_2 p,.wd-portfolio-panel_2 .description-block_2 * {	
+	text-align: center !important;
+	color: #000 !important;
+}
+
+
+/*** CSS PARA PERSONALIZAR EL BOTON DE IR AL SITIO EN PORTAFOLIO ***/
+.wd-portfolio-panel_2 .button-block a, .wd-portfolio-panel_2 .button-block a:link, .wd-portfolio-panel_2 .button-block a:visited {
+	background: #000 !important;
+}
+
+.wd-portfolio-panel_2 .button-block a:hover, .wd-portfolio-panel_2 .button-block a:focus, .wd-portfolio-panel_2 .button-block a:active {
+	background: #fe1201 !important;
+}
+
+
+.default-block_2 .title-block_2 h3 {
+    color: #000 !important;
+}
+
+
+/*** CSS PARA PERSONALIZAR EL COLOR DEL FONDO DE LAS PAGINAS INTERNAS ***/
+
+body.page-id-284 {
+background: #fff !important;
+}
+
+body.page-id-194 {
+background: #fff !important;
+}
+
+body.page-id-404 {
+background: #fff !important;
+}
+
+body.page-id-558 {
+background: #fff !important;
+}
+
+body.page-id-427 {
+background: #fff !important;
+}
+
+body.page-id-197 {
+background: #fff !important;
+}
+
+
+/*** CSS PARA MODIFICAR EL BLOG ***/
+body.page-id-41966 {
+background: #fff !important;
+padding: 0;
+}
+body.page-id-41966 .hentry{
+padding: 0;
+}
+
+body.page-id-41966 #content > .mid-content{
+margin-top: 20px;
+}
+
+
+/*** CSS PARA MODIFICAR EL TAMAÑO DEL TEXTO TOOLTIP EN ICONOS SOCIALES DEL FOOTER ***/
+.aps-each-icon .aps-icon-tooltip {
+    font-size: 12px;
+}
+
+
+/*** CSS PARA EDITAR EL STICKY HEADER ENCIMA DEL ENCABEZADO ***/
+#stickynav {
+    color: #fff;
+    font-size: 13px;
+    font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    padding: 3px 10px;
+    height: 26px;
+    position: fixed;
+    top: 0;  
+    width: 100%;
+    min-width: 600px;
+    z-index: 1000;
+    margin: 0;
+    background: #23282d;
+}
+
+#stickynav #stickyicons {
+    float:left;
+}
+
+#stickynav #stickyicons	a {
+      	color: #fff;
+      	font-size: 13px;
+      	text-decoration:none;
+		padding: 5px;
+}
+    
+#stickynav #stickyicons li {
+  margin: 0px 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+#stickynav #stickycontacts {
+    float:right;
+}
+
+@media screen and (max-width: 800px) {
+  #stickynav #stickycontacts {
+    display: none !important;
+   }
+}
+
+#stickynav #stickycontacts li {
+  margin: 0px 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+#masthead {
+    padding-top: 35px;
+}
+
+/*** CSS PARA EDITAR LOS TITULOS DE LOS SERVICIOS EN INICIO ***/
+.service-list h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/*** CSS PARA QUITAR EL ESTILO BOLD DE LA FUENTE H4 EN EL PARRAFO DE TODAVIA NO TIENE PAGINA WEB ***/
+h4{
+	font-weight: unset;
+}
+
+
+/*** CSS PARA MODIFICAR TF RANDOM NUMBERS ***/
+.statistics{
+	padding: 0 0;
+}
+
+.stat .number {
+    font-weight: 400;
+}
+
+
+/*** CSS PARA REDUCIR EL MARGEN INFERIOR EN LAS SECCIONES SOMOS SU AGENCIA, PORTAFOLIO Y PLANES DE DISEÑO EN INICIO ***/
+.parallax-section{ 
+	padding: 60px 0 30px;
+}
+
+
+/*** CSS PARA AUMENTAR EL TAMAÑO DEL TITULO Y REDUCIR EL MARGEN SUPERIOR DE SOLICITE SU COTIZACION EN INICIO ***/
+.call-to-action h2{
+	margin: 15px 0 15px; 
+	font-size: 35px;
+}
+
+
+/*** CSS PARA REMOVER EL CUADRO -GO TO TOP- EN INICIO ***/
+#go-top{
+	display: none !important;
+}
+
+
+/*** CSS PARA PERSONALIZAR EL SIDEBAR EN BLOG ***/
+.siguenos-blog{ 
+	color:#000;
+	padding-bottom: 30px;
+}
+
+.buscar-blog{ 
+	color:#000;
+	padding-bottom: 30px;
+}
+
+.categorias-blog{ 
+	color:#000;
+	padding-bottom: 30px;
+}
+
+.precientes-blog{ 
+	color:#000;
+	padding-bottom: 30px;
+}
+
+
+/*** CSS PARA MODIFICAR EL COLOR DE LOS LINKS ***/
+a {
+	color: #fe1201;
+}
+
+
+

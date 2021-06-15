@@ -1,0 +1,737 @@
+/* #botones para linkear
+================================================== */
+.botonindex a {
+	background: #000;
+  	position: relative;
+	border: 2px solid #fff;
+	display: inline-block;
+	line-height: 1;
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	font-size: 20px;
+}
+
+.botonindex a:hover {
+	background: #FE1201 !important;
+	border: 2px solid #fff !important;
+	color:#FFF !important;
+}
+
+.botonportafolio a {
+  	position: absolute;
+  	float: right;
+  	left: 43%;
+  	bottom: -10%;
+  	text-align: center;
+	border: 2px solid #fff;
+	display: inline-block;
+	line-height: 1;
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	font-size: 20px;
+}
+
+.botonportafolio a:hover {
+	background: #FE1201 !important;
+	border: 2px solid #fff !important;
+	color:#FFF !important;
+}
+
+.linksahori {
+	color:#FFF !important;
+}
+
+.linksahori:hover {
+	color:#FE1201 !important;
+    text-decoration: none;
+}
+
+
+/* #Modificaciones en el header -efecto del hover, cambio de color del menu, color del menu en resolucion baja-
+================================================== */
+#masthead{
+border-bottom: 3px solid #000;
+}
+.main-navigation ul li a{
+border-bottom: 3px solid #fff;
+}
+.main-navigation ul li a:hover{
+color: #fe1201;
+border-bottom: 3px solid #fe1201;
+}
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a {
+	color: #fe1201;
+}
+
+
+
+/* #Eliminar el circulo de los iconos en SERVICIOS
+================================================== */
+.service-list .service-image{
+border:0px solid;
+}
+
+
+/* #color de cuadro inferior para SUBIR
+================================================== */
+#go-top{
+background: #000;
+border:solid 1px #fff;
+}
+
+/* #gradiente overlay en fotos de slider
+================================================== */
+#main-slider .overlay{
+	background: rgba(20,20,20, 0.5);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+
+/* #eliminar circulo con flecha que aperece en el header
+================================================== */
+.next-page{
+	border: 0px solid #FFF;
+}
+
+.next-page a{
+	background: none;
+}
+
+/* #color del circulo que linkea al sitio web de los clientes en portafolio
+================================================== */
+.portfolio-list .portfolio-overlay span{
+	background: #FE1201;
+}
+
+
+/* #codigo para tornar las paginas internas 100% ancho
+================================================== */
+#primary {
+width: 100% !important;
+}
+
+/* #codigo para disminuir el margen superior en las paginas internas..el original es margin: 20px 0 0;
+================================================== */
+.page-content,
+.entry-content,
+.entry-summary
+ {
+	margin: 0px 0 0;
+}
+
+/* #codigo para centrar el formulario de cotizaciones
+================================================== */
+.ufbl-form-wrapper.ufbl-template-4 {
+    float : none; margin: 0 auto; 
+}
+
+/* #codigo para cambiar el color y el font-weight en los titulos de servicios en caldera forms
+================================================== */
+.caldera-grid p,
+.caldera-grid label {
+    color: #fff;
+font-weight: 400;
+}
+
+
+/* #codigo css para desaparecer las imagenes de secciones SERVICIOS y NOSOTROS en smartphones
+================================================== */
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+.service-img { display: none; }
+}
+
+
+/* margen izquierdo de widgets en blog  */
+.blog-sideb {
+	padding-left: 35px;
+}
+
+.blog-sideb-der {
+	padding-right: 15px;
+}
+
+.one_fourth  {
+	border-left: 1px solid #ddd;
+}
+
+
+/* codigo para eliminar linea gris izquierda y agregar linea gris del top del sidebar derecho en SMARTPHONES  */
+@media screen and (max-width: 479px) {
+     .one_fourth { border-left: none; border-top: 1px solid #ddd; padding-top: 20px;}
+}
+
+
+.three_fourth  {
+	padding-right: 10px;
+}
+
+
+
+/* codigo para personalizar lista de CATEGORIAS en blog  */
+#categories-3 a {
+	color: #fe1201;
+}
+
+#categories-3 a:hover {
+	color: #000;
+}
+
+#categories-3 ul {
+	list-style: square;
+}
+
+#categories-3 ul li {
+	padding: 10px;
+}
+
+#categories-3 ul li.cat-item{
+	border-bottom: 1px dashed #d1d1d1;
+  	font-weight: 400;
+  	font-size: 1.3em;
+}
+
+/* codigo para personalizar lista de POST RECIENTES en blog  */
+.one_fourth span.rpwwt-post-title{
+	color: #fff;
+}
+
+.one_fourth span.rpwwt-post-title{
+	color: #fe1201;
+}
+
+.one_fourth span.rpwwt-post-title:hover{
+	color: #000;
+}
+
+
+/* codigo para eliminar la columna de widgets del BLOG en SMARTPHONES  
+@media screen and (max-width: 479px) {
+     .one_fourth { display: none; }
+
+}
+*/
+
+/* codigo para personalizar los TITULOS de los widgets en la pagina inical del BLOG  */
+.one_fourth h2.widget-title{
+	border-bottom: 3px solid #E66432;
+ 	margin-bottom: 20px;
+	line-height: 1.7;
+	font-size: 18px;
+  	text-transform: uppercase;
+}
+
+/* #codigo para personalizar la plantilla de los posts - plantilla con sidebar - PRIMARY
+================================================== */
+#primary-custom {
+  width: 73%;
+  float: left;  
+}
+
+#primary-custom .entry-header h1.entry-title.no-date{
+  color: #000;
+  font-size: 2.0em;
+  
+}
+
+#primary-custom .entry-content{
+  color: #000;
+  margin: 15px 0 0;
+}
+
+#primary-custom .posted-on{
+  background: #fe1201;
+}
+
+#primary-custom #reply-title{
+  background: #000;
+}
+
+#primary-custom #commentform{
+  border-top:2px solid #000;
+}
+
+#primary-custom #comments input[type="submit"]{
+	background: #fe1201;
+}
+
+#primary-custom #commentform label{
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  #primary-custom, #secondary{
+    float: none;
+    width: 100%;
+   }
+}
+
+
+.titulo-blog  {
+	color: #fe1201;
+}
+
+#primary-custom .comment-notes{
+  font-size: 0.9em;
+}
+
+
+#primary-custom div.wpspw-post-date{
+	text-transform: none;
+}
+
+
+/* #codigos para personalizar los POST RECIENTES -Primary-Custom- en la pagina principal del BLOG
+================================================== */
+
+.wpspw_pagination a, .wpspw_pagination a{
+  background: #000;
+}
+
+
+.sp_wpspwpost_static.wpspw-design-1 .wpspw-readmorebtn{ 
+  transition: none;
+  background: #000;
+  color:#fff !important;
+}
+.sp_wpspwpost_static.wpspw-design-1 .wpspw-readmorebtn:hover{
+  background: transparent;
+  color:#333 !important;
+  transition: none;
+}
+
+.sp_wpspwpost_static.wpspw-design-1 .wpspw-post-grid-content h2 a{
+  color: #000;
+}
+
+
+.wpspw-post-categories a:nth-child(2n+1){background: #fe1201 !important;;}
+.wpspw-post-categories a:hover, .wpspw-post-categories a:focus{background: #000 !important;}
+
+
+
+/* #codigo para personalizar la plantilla de los posts - plantilla con sidebar - SECONDARY
+================================================== */
+#secondary-custom{
+	width: 25%;
+	float: right;
+	font-size: 16px;
+}
+#secondary-custom ul{
+	list-style: none;
+	margin-left: 0;
+}
+#secondary-custom li.cat-item{
+    padding: 0px 0px 10px 10px;
+  	border-bottom: 1px dashed #ddd;
+    margin: 10px 20px;
+  	font-size: 1.3em;
+    font-weight: 400;
+  	list-style: square;
+}
+#secondary-custom li.cat-item a:hover{
+    color: #fe1201;
+}
+
+
+#secondary-custom ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#secondary-custom h2.widget-title{
+	border-bottom: 3px solid #E66432;
+	margin-bottom: 20px;
+	line-height: 1.2;
+	font-size: 18px;
+    text-transform: uppercase;
+}
+
+#secondary-custom span.rpwwt-post-title{
+	color: #000;
+}
+
+#secondary-custom span.rpwwt-post-title:hover{
+	color: #fe1201;
+}
+
+#secondary-custom h2.widget-title span{
+	color: #000;
+	display: inline-block;
+	padding: 8px 0;
+}
+
+#secondary-custom .search-form input[type="search"]{
+	width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  #primary-custom, #secondary-custom{
+    float: none;
+    width: 100%;
+   }
+}
+
+
+/* codigo para eliminar el footer principal en los posts del BLOG en SMARTPHONES  */
+@media screen and (max-width: 479px) {
+     .single-post .top-footer { display: none !important; }
+}
+
+
+/* codigo para para darle forma redondeada a los thumbnails de los posts recientes del BLOG  */
+#rpwwt-recent-posts-widget-with-thumbnails-2 img { width: 75px; height: 75px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%;}
+
+#rpwwt-recent-posts-widget-with-thumbnails-3 img { width: 75px; height: 75px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%;}
+
+
+/* codigo para personalizar el titulo de los COMENTARIOS del BLOG  */
+.comments-title{
+	margin-bottom: 20px;
+	color: #fe1201;
+	border-bottom: 1px solid #ddd;
+}
+
+/* codigo para remover la imagen del autor de los COMENTARIOS del BLOG  */
+.comment-author img{
+	display: none;
+}
+
+
+/* codigos para modificar la pagina de CATEGORIAS del BLOG  */
+.archive #primary-custom .entry-content{
+  display: none;
+}
+
+.archive .entry-header h1.entry-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+.archive .page-header{
+	background: #FFF;
+	padding: 30px 40px;
+	margin-bottom: 40px;
+	border-bottom: 3px solid #fe1201;
+  	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.archive #primary-custom h1{
+  font-family: 'Oswald'; 
+  font-style: normal; 
+  font-weight: 500; 
+  font-size: 2.0em;
+}
+
+/*.archive .entry-footer .cat-links{
+  display: none;
+}*/
+
+/* codigos para reducir el margen entre iconos sociales en la pagina de CATEGORIAS del BLOG  */
+.addtoany_shortcode .addtoany_list.a2a_kit_size_32 a>span{
+ margin: 0 0;
+}
+
+/* codigos para remover los comentarios en la pagina de CATEGORIAS del BLOG  */
+.archive .entry-footer .comments-link{
+  display: none;
+}
+
+
+/* HEADER PERSONALIZADO  */
+
+.mid-content{ 
+	max-width: 1170px; 
+	margin: 0 auto;
+	position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+#site-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    float: left;
+    z-index: 20
+}
+
+@media screen and (max-width: 1000px) {
+#site-logo {
+    width: 80%;
+    }
+}
+
+#site-navigation{
+    width: 57%;
+    height: 100%;
+    margin: 0 0 0 0;
+    padding: 5px 0 0 0;
+    position: relative;
+    top: 0;
+    right: 0;
+    float: left
+}
+
+.call-request-wrap {
+    position: absolute;
+    width: 13%;
+    height: 59px;
+    margin-top: -32px;
+    margin-right: 3px;
+    right: 0;
+    top: 66%
+}
+
+.request-quote-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+}
+.request-quote-button {
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fe0000;
+    font-weight: 700;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    padding: 6px 17px;
+    margin: 0 auto;
+    -webkit-transition: .1s ease;
+    -moz-transition: .1s ease;
+    -o-transition: .1s ease;
+    transition: .1s ease;
+    -moz-box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.3);
+    border: 0
+}
+.request-quote-button:hover {
+    color: #fff!important;
+    background-color: #000
+}
+.call {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1121px) {
+.hideOnMobile {
+    display: none;
+    }
+  
+#site-navigation {
+    max-width: 80%;
+    float: right;
+    position: unset;
+    width: unset;
+	}
+}
+
+
+/* codigo para ESCONDER el menu COTIZACIONES al llegar a la resolucion indicada  */
+@media screen and (min-width: 1121px) {
+#menu-item-429 {
+  display: none;
+  }
+}
+
+/* codigos para corregir el error del menu donde el menu CONTACTOS forma una segunda fila entre estas resoluciones  */
+@media screen and (min-width: 1122px) and (max-width: 1147px) {
+#site-navigation {
+    width: 59%;
+	}
+}
+
+
+.menu-toggle{
+		background: url(https://www.tdgcentro.com/wp-content/themes/accesspress-parallax/images/menu.png) no-repeat center #000;
+
+	}
+
+@media screen and (max-width: 1000px){
+.main-navigation > ul {
+    background: #000;
+    }
+}
+
+
+
+/*
+CSS para modificar el numero de columnas en la seccion PORTAFOLIO DE CLIENTES en pagina inicial -width original es 33.333%-  
+.portfolio-list{
+	width: 25%;
+}
+
+@media screen and (max-width: 768px){
+.portfolio-list{
+	width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 480px){
+.portfolio-list{
+	width: 100%;
+	}
+}
+*/
+
+
+/* CODIGOS PARA PERSONALIZAR LA PAGINACION EN LA PAGINA DE CADA CATEGORIA DEL BLOG*/
+.pagination .nav-links a{
+    background: #000;
+  	border: 1px solid #000;
+}
+
+.pagination .nav-links a:hover{
+    background: #fff;
+  	color: #000;
+  	border: 1px solid #000;
+}
+
+.pagination .nav-links span{
+    background: transparent;
+  	color: #000;
+  	border: 1px solid #000;
+}
+
+
+/* CODIGOS PARA PANTALLA RESPONSIVE PARA LA SECCION ESTADISTICAS DE PAGINA INICIAL */
+/* monitores widescreen */
+@media only screen and (min-width : 1025px) {
+.statistics .stat { margin: 35px 62px; }
+}
+
+/* ipads screen -landscape and portrait */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+.statistics .stat {
+	margin: 15px 25px;
+	font-size: 0.8em;
+	}
+}
+
+/* Nexus tablets screen -landscape and portrait */
+@media only screen and (min-width : 384px) and (max-width : 600px) {
+.statistics .stat {
+	font-size: 0.8em;
+	margin: auto;
+	width: 50%;
+	padding: 0 0 50px 0;
+	}
+}
+
+/* iPhone4 y iPhone6 -portrait */
+@media only screen and (max-width : 383px) {
+.statistics .stat {
+	font-size: 0.8em;
+	margin: auto;
+	width: 100%;
+	padding: 0 0 50px 0;
+	}
+}
+
+/* iPhone6 -landscape */
+@media only screen and (min-width : 601px) and (max-width : 767px) {
+.statistics .stat {
+	font-size: 0.9em;
+	margin: auto;
+	width: 50%;
+	padding: 0 0 40px 0;
+	}
+}
+
+
+/* CODIGO RESPONSIVE PARA SECCION -SOMOS SU AGENCIA DE DISEÑO WEB- EN PAGINA INICIAL  */
+.elemento-left {
+        float: left;
+        width: 44%;
+}
+
+.elemento-right {
+        float: right;
+        width: 56%;
+}
+
+.grupo:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+
+@media screen and (max-width: 980px) {
+   .elemento-left, .elemento-right {
+    float: none;
+    width: auto;
+    }
+}
+
+
+/* CODIGO RESPONSIVE PARA SECCION -COTIZACION- EN PAGINA INICIAL  */
+@media only screen and (max-width : 1050px) {
+body.page-id-427 .one_third {
+		width: unset;
+		}
+body.page-id-427 .two_third {
+    	width: 100%;
+		}
+}
+
+/* CODIGO RESPONSIVE PARA SECCION -CONTACTO- EN PAGINA INICIAL  */
+@media only screen and (max-width : 1050px) {
+body.page-id-197 .one_third {
+		width: 100%;
+		}
+body.page-id-197 .two_third {
+    	width: 100%;
+		}
+}
+
+
+
+/* #CODIGO PARA MODIFICAR EL TEXTO DE LOS SLIDER PARA RESOLUCION EN SMARTPHONES
+================================================== */
+@media screen and (max-width: 480px){
+
+.slider-caption{
+		display: block; /* originalmente como none */
+	}
+
+.slider-caption .caption-title{
+		    font-size: 25px;
+			}
+
+	   .slider-caption .caption-description{
+        font-size: 12px;
+			}
+
+.slider-caption .caption-description a{
+				font-size: 15px;
+			}
+	
+}
+
